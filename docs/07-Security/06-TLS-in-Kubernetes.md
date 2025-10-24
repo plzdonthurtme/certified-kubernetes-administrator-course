@@ -7,6 +7,8 @@ Three types:
 - Server certificates configured on the servers.
 - Root certificate configured on the CA servers
 - Client certificates configured on the clients.
+
+
 | Type                      | Used By                       | Purpose                           | Example File               |
 | ------------------------- | ----------------------------- | --------------------------------- | -------------------------- |
 | **Server Certificate**    | API server, etcd, kubelet     | Proves server identity to clients | `apiserver.crt`            |

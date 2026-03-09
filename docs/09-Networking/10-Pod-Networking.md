@@ -100,8 +100,10 @@ $ ip route add 10.244.2.2 via 192.168.1.12
 
 ![net-13](../../images/net13.PNG)
 
-
-
+```
+CNI finds our script to add settings 
+ --cni-conf-dir=/etc/cni/net.d  > --cni-bin-dir=/etc/cni/bin  > ./net-script.sh add <namespace> 
+```
 
 
 
